@@ -141,6 +141,6 @@ O primeiro passo é validar se o serviço `apache2` foi devidamente instalado e 
 
 Para sairmos da tela de status deste serviço, basta pressionarmos a tecla `q` em nosso teclado.
 
-Agora, vamos verificar se o servidor está realmente disponível e funcionando devidamente. Para isto, vamos abrir uma nova aba em nosso browser e navegar até o endereço IP de nosso servidor. A página do Apache Server deverá ser exibida:
+Agora, vamos verificar se o servidor está realmente disponível e funcionando devidamente. Para isto, vamos abrir uma nova aba em nosso browser e navegar até o endereço `localhost:81`. A página do Apache Server deverá ser exibida:
 
 ![apache server](/03-ChefClient/images/apache_server.png)
