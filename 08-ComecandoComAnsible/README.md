@@ -88,7 +88,11 @@ Anote esta porta, pois utilizaremos a mesma para nos conectarmos ao container ut
 
 ## 3. Configurando o Ansible
 
-Agora que já temos um container sendo executado, vamos retornar ao `chef-server`, onde instalamos o Ansible, e configurar o mesmo. O primeiro passo, é editar o arquivo `/etc/ansible/hosts` e inserir os endereços IP dos nodes que vamos gerenciar. Neste caso, vamos criar um grupo de nodes chamado `webservers` e adicionar nosso container a este grupo. Para isto, edite o arquivo `/etc/ansible/hosts` e insira as seguintes linhas ao final do mesmo:
+Agora que já temos um container sendo executado, vamos retornar ao `chef-server`, onde instalamos o Ansible, e configurar o mesmo. O primeiro passo, é editar o arquivo `/etc/ansible/hosts` e inserir os endereços IP dos nodes que vamos gerenciar. Neste caso, vamos criar um grupo de nodes chamado `webservers` e adicionar nosso container a este grupo. Para isto, edite o arquivo `/etc/ansible/hosts` utilizando o comando:
+
+    $ sudo vi /etc/ansible/hosts
+
+E insira as seguintes linhas ao final do mesmo:
 
     [webservers]
     ansible-container ansible_port=<porta do docker> ansible_host=<IP do chef client> ansible_user=root
