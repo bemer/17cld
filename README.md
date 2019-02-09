@@ -1,8 +1,8 @@
 ![fiap logo](/images/fiap_logo.jpg)
 
-# Orquestração e Automação de Serviços - 16CLD
+# Orquestração e DevOps - 17CLD
 
-Bem vindo ao material de laboratório elaborado para o curso de **Orquestração e Automação de Serviços** da turma **16CLD**!
+Bem vindo ao material de laboratório elaborado para o curso de **Orquestração e Automação de Serviços** da turma **17CLD**!
 
 Aqui você vai encontrar todo o conteúdo e passos para a execução dos laboratórios em sala de aula, utilizando os conceitos apresentados pela disciplina.
 
