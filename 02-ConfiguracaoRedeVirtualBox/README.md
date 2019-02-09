@@ -78,6 +78,7 @@ Vamos então clicar no sinal de `+` no lado direito da tela e adicionar os mapea
 | 443           | IP do chef-server | 443                |
 | 23            | IP do chef-client | 22                 |
 | 81            | IP do chef-client | 80                 |
+| 82            | IP do chef-client | 8080               |
 
 Conforme a imagem abaixo:
 

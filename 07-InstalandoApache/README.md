@@ -80,9 +80,9 @@ A saída deste comando deverá ser:
 
 ## 5. Acessando através de seu browser
 
-Como estamos realizando a instalação de um servidor web, nada melhor do que utilizarmos o nosso browser para validação do funcionamento. Para isto, abra uma nova aba em seu navegador e insira o endereço IP do seu `Chef Client` com a porta `8080`, Esta entrada deverá ser semelhante a:
+Como estamos realizando a instalação de um servidor web, nada melhor do que utilizarmos o nosso browser para validação do funcionamento. Para isto, abra uma nova aba em seu navegador e insira o seguinte endereço:
 
-    http://192.168.0.13:8080
+    http://localhost:82
 
 Você deverá visualizar a interface do Apache Server:
 
