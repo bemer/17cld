@@ -68,7 +68,7 @@ Feito isto, instale o `Puppet Agent` através do seguinte comando:
 Agora que o `Puppet Agent` foi instalado, vamos realizar uma configuração para que o Puppet Agent possa se comunicar com o Puppet Master. Para isto, precisamos editar o arquivo `/etc/hosts` e adicionar o endereço IP do Puppet Master. O arquivo hosts deverá ficar conforme abaixo:
 
     127.0.0.1       localhost
-    127.0.1.1       chef-client
+    127.0.1.1       chef-client.fiap.com.br
     <IP do Master>   puppet-server.fiap.com.br
 
     # The following lines are desirable for IPv6 capable hosts
@@ -102,7 +102,7 @@ Você deverá ver algo semelhate a:
 
 Agora, ainda no `puppet-server` execute o seguinte comando para assinar o certificado:
 
-    $ sudo /opt/puppetlabs/bin/puppet cert sign chef-client
+    $ sudo /opt/puppetlabs/bin/puppet cert sign chef-client.fiap.com.br
 
 A saída deverá ser semelhante a esta:
 
