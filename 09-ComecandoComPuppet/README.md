@@ -55,7 +55,7 @@ Isto significa que seu `Puppet Master` está devidamente instalado e em execuç�
 
 Para a execução deste lab, vamos utilizar a mesma máquina virtual que utilizamos nos labs anteriores, chamada `chef-client`. Desta maneira, é importante lembrar que por mais que estejamos instalando pacotes em uma máquina chamada `chef-client`, vamos utilizar o `Puppet` para este provisionamento.
 
-Para a instalação do `Puppet Agent`, você deverá adicionar o repositório também no container. Para isto, execute os seguintes comandos no terminal do `chef-client`:
+Para a instalação do `Puppet Agent`, você deverá adicionar o repositório também no servidor. Para isto, execute os seguintes comandos no terminal do `chef-client`:
 
     $ wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
     $ sudo dpkg -i puppetlabs-release-pc1-xenial.deb
@@ -69,7 +69,7 @@ Agora que o `Puppet Agent` foi instalado, vamos realizar uma configuração para
 
     127.0.0.1       localhost
     127.0.1.1       chef-client
-    <IP do Mater>   puppet-server
+    <IP do Master>   puppet-server.fiap.com.br
 
     # The following lines are desirable for IPv6 capable hosts
     ::1     localhost ip6-localhost ip6-loopback
@@ -80,7 +80,7 @@ Agora, vamos editar o arquivo de configruração do Puppet Agent em nossa VM. Ed
 
     [main]
     certname = chef-client
-    server = puppet-server
+    server = puppet-server.fiap.com.br
 
 
 Inicie o Puppet Agent através dos seguintes comandos:
