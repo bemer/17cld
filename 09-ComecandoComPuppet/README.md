@@ -53,7 +53,7 @@ Isto significa que seu `Puppet Master` está devidamente instalado e em execuç�
 
 ## 2. Instalando o Puppet Agent
 
-Para a execução deste lab, vamos utilizar a mesma máquina virtual que utilizamos nos labs anteriores, chamada `chef-server`. Desta maneira, é importante lembrar que por mais que estejamos instalando pacotes em uma máquina chamada `chef-server`, vamos utilizar o `Puppet` para este provisionamento.
+Para a execução deste lab, vamos utilizar a mesma máquina virtual que utilizamos nos labs anteriores, chamada `chef-client`. Desta maneira, é importante lembrar que por mais que estejamos instalando pacotes em uma máquina chamada `chef-client`, vamos utilizar o `Puppet` para este provisionamento.
 
 Para a instalação do `Puppet Agent`, você deverá adicionar o repositório também no container. Para isto, execute os seguintes comandos no terminal do `chef-client`:
 
