@@ -79,7 +79,7 @@ Agora que o `Puppet Agent` foi instalado, vamos realizar uma configuração para
 Agora, vamos editar o arquivo de configruração do Puppet Agent em nossa VM. Edite o arquivo `/etc/puppetlabs/puppet/puppet.conf` e insira o seguinte conteúdo:
 
     [main]
-    certname = chef-client
+    certname = chef-client.fiap.com.br
     server = puppet-server.fiap.com.br
 
 
